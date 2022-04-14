@@ -12,3 +12,13 @@
 a:hover {
     font-size: 1rem;
 }
+
+.rotate-wave{
+    transform-origin: right bottom;
+    transform: rotate(180deg) translate(100%,100%);
+    
+}
+.wave-1hkxOo {
+    color: #f6f6f6;
+    display: block;
+}
