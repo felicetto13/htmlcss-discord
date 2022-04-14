@@ -1,0 +1,14 @@
+.btn-light:hover {
+    background-color: #F6F6F6;
+    box-shadow: 1px 1px 18px;
+}
+.btn-dark:hover {
+    background-color: #303132;
+    box-shadow: 1px 1px 18px;
+}
+.btn-violet:hover {
+    background-color: #6a81d7;
+}
+a:hover {
+    font-size: 1rem;
+}
