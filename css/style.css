@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1rem;
+}
+@font-face {
+    font-family: WhitneyRegularBold;
+    src: url('../font/whitneysemibold.otf');
+}
+@font-face {
+    font-family: WhitneyBold;
+    src: url('../font/whitneybold.otf');
+}
+@font-face {
+    font-family: WhitneyRegular;
+    src: url('../font/whitneybook.otf');
+}
+/* section tags */
+body {
+    font-family: WhitneyRegular;
+}
+header {
+    background-color: #275DE8;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a, p, footer{
+    font-size: .9rem;
+}
+h1 {
+    font-family: WhitneyBold;
+    font-size: 2.3rem;
+}
+h2 {
+    font-family: WhitneyBold;
+    font-size: 2rem;
+}
+h3 {
+    font-family: WhitneyBold;
+    font-size: 1.5rem;
+}
+h5 {
+    font-family: WhitneyRegularBold;
+    font-size: 1.2rem;
+}
+h1,h2,h3,h5 {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    line-height: 2.5rem;
+}
+
+/* classes style */
+.section {
+    padding: 4rem 0;
+}
+.container {
+    max-width: 960px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+}
+.bg-color-grey{
+    background-color: #F6F6F6;
+}
+.margin-tb{
+    margin: 1rem 0;
+}
+.padding-tb{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.side {
+    max-width: 20%;
+    align-self: center;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: #ffffff;
+}
+
+.main-menu {
+    max-width: 80%;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+.btn {
+    border-width: 0;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    cursor: pointer;
+}
+.btn-sm{
+    padding:.5rem .75rem;
+    font-size: .9rem;
+}
+.btn-lg{
+    padding:.75rem 1rem;
+    font-size: 1rem;
+}
+.btn-light {
+    background-color: #ffffff;
+    color: black;
+}
+.btn-dark {
+    background-color: #23272A;
+    color: #ffffff;
+}
+.btn-violet {
+    background-color: #8EA1E1;
+    color: #ffffff;
+}
+/* .main-menu */ ul li a{
+    padding: 1rem 1rem;
+    display: inline-block;
+}
+.bg-color-head-section {
+    background-color: #275DE8;
+}
+.section-jumbotron-img {
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-content {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 6rem;
+    min-height: 300px;
+}
+.col-lg {
+    width: 100%;
+    max-width: 70%;
+    min-height: 400px;
+}
+
+.col-sm {
+    width: 100%;
+    max-width: 30%;
+    min-height: 400px;
+}
+
+.img-column {
+    max-width: 80%;
+    width: 100%;
+}
+.col {
+    padding: .5rem 1.5rem;
+}
+.col-reverse {
+    flex-direction: row-reverse;
+}
+.bg-color-green {
+    background-color: #228B21;
+    min-height: 700px;
+}
+.bg-color-black {
+    background-color: #23272A;
+}
+.col-xlg {
+    min-width: 30%;
+}
+.bg-color-peach{
+    background-color: #EF8080;
+}
+.bg-color-gw{
+    background-color: #20B1A9;
+}
+.flex-space{
+    justify-content: space-between;
+}
+.logo-footer , .button-footer{
+    align-items: center;
+    border: 2px dotted black;
+}
+.bg-color-azure {
+    background-color: #7FFFD3;
+}
+.padding-lr{
+    padding: 0 8rem;
+}
