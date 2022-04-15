@@ -7,7 +7,7 @@
     box-shadow: 1px 1px 18px;
 }
 .btn-violet:hover {
-    background-color: #6a81d7;
+    background-color: #8EA1E1;
 }
 a:hover {
     font-size: 1rem;
@@ -21,4 +21,58 @@ a:hover {
 .wave-1hkxOo {
     color: #f6f6f6;
     display: block;
+}
+.textSmall {
+    font-size: 1rem;
+    width: auto;
+    flex-shrink: 0;
+    align-self: center;
+}
+.btn-shrink {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.titleBig{
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 0;
+}
+.image-absolute {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 156px auto 156px auto 156px;
+    grid-column: span 12;
+    gap: 20px;
+}
+.card {
+    height: 600px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 56px;
+}
+.card , .card-hf{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.card-hf {
+    padding: 48px 40px;
+}
+.image-card {
+    margin-top: 60px;
+}
+.card-right-down {
+    grid-column: 2;
+    grid-row: 2/span 2;
 }
